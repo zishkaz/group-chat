@@ -12,6 +12,9 @@ Run application with `$ java -jar path_to_jar connect ip port user_name`
 * `port`: Specifies port to make connection with.
 * `user_name`: Specifies user's name that will be visible to other users.
 
+## Example
+`java -jar chat.jar connect 239.0.0.0 1234 Sergey`
+
 # Usage
 
 Type messages in the command line you connected with. They will appear to all connected users.
