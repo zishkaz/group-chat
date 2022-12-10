@@ -13,7 +13,7 @@ class ConnectCommand: CliktCommand(name = "connect", help = "Connects user to gr
 
     private val port by argument(help = "Specifies port to make connection with.")
 
-    private val name by argument(help = "Specifies user's name.")
+    private val name by argument(help = "Specifies user's name that will be visible to other users.")
 
     override fun run() {
         Client(ip, name, port.toInt())
